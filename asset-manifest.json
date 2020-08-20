@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/color-scheme-explorer/static/css/main.c8465cce.chunk.css",
+    "main.js": "/color-scheme-explorer/static/js/main.9b1b8f67.chunk.js",
+    "main.js.map": "/color-scheme-explorer/static/js/main.9b1b8f67.chunk.js.map",
+    "runtime-main.js": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js",
+    "runtime-main.js.map": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js.map",
+    "static/js/2.e974b06b.chunk.js": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js",
+    "static/js/2.e974b06b.chunk.js.map": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js.map",
+    "index.html": "/color-scheme-explorer/index.html",
+    "precache-manifest.df1431d3bd4633a1fa9fbe7e1f0f544f.js": "/color-scheme-explorer/precache-manifest.df1431d3bd4633a1fa9fbe7e1f0f544f.js",
+    "service-worker.js": "/color-scheme-explorer/service-worker.js",
+    "static/css/main.c8465cce.chunk.css.map": "/color-scheme-explorer/static/css/main.c8465cce.chunk.css.map",
+    "static/js/2.e974b06b.chunk.js.LICENSE.txt": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js.LICENSE.txt",
+    "static/media/App2.css": "/color-scheme-explorer/static/media/overpass-mono-regular-webfont.6e4d90e6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a280aaf3.js",
+    "static/js/2.e974b06b.chunk.js",
+    "static/css/main.c8465cce.chunk.css",
+    "static/js/main.9b1b8f67.chunk.js"
+  ]
+}
