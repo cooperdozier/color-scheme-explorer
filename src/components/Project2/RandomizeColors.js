@@ -35,7 +35,7 @@ class RandomizeColors extends Component {
                     <label>
                         Get scheme by colr.org ID#:
                         <input type="number" value={this.state.value2} onChange={this.handleChange2}
-                            placeholder='1 to 17564' />
+                            placeholder='1-17650' />
                     </label>
                     <input type="submit" value="Submit" />
                 </form>
