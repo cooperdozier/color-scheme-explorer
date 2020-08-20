@@ -52,7 +52,7 @@ class App2 extends Component {
     function shuffle(min, maxPlus1) { return Math.floor(Math.random() * (maxPlus1 - min)) + min }
     let randomId = shuffle(0,17649);
     axios({
-      url: `http://www.colr.org/json/scheme/${randomId}`,
+      url: `https://cors-anywhere.herokuapp.com/http://www.colr.org/json/scheme/${randomId}`,
       method: 'get'
     })
       .then(response => {
@@ -66,7 +66,7 @@ class App2 extends Component {
 
   fetchScheme(schemeId) {
     axios({
-      url: `http://www.colr.org/json/scheme/${schemeId}`,
+      url: `https://cors-anywhere.herokuapp.com/http://www.colr.org/json/scheme/${schemeId}`,
       method: 'get'
     })
       .then(response => {
@@ -80,7 +80,7 @@ class App2 extends Component {
 
   getGibberish() {
     axios({
-      url: 'http://www.randomtext.me/api/giberish/p-3/15-75',
+      url: 'https://cors-anywhere.herokuapp.com/https://www.randomtext.me/api/giberish/p-3/15-75',
       method: 'get'
     })
       .then(response => {
@@ -91,7 +91,7 @@ class App2 extends Component {
         })
       })
     axios({
-      url: 'https://www.randomtext.me/api/giberish/p-3/1-10',
+      url: 'https://cors-anywhere.herokuapp.com/https://www.randomtext.me/api/giberish/p-3/1-10',
       method: 'get'
     })
       .then(response => {
