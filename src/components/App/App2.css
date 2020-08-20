@@ -133,10 +133,11 @@ h3 {
 .otherh4 {
   background-color: cadetblue;
   border: 2px solid black;
-  padding: 6px;
+  padding: 0.6em;
   font-weight: 900;
   display: inline-block;
   border-radius: 17px;
+  margin: 0.7em auto;
   /* margin: 6px; */
 }
 h1 {
@@ -161,9 +162,10 @@ h1 {
 .basicText a {
   line-height: 75%;
 }
-h2 {
-  margin-bottom: 0.4em;
-}
+/* h2 {
+  margin: 0.7em auto;
+  padding: 0.6em;
+} */
 img {
   border: 7px double teal;
   border-radius:17px;

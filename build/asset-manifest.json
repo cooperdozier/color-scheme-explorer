@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/color-scheme-explorer/static/css/main.c8465cce.chunk.css",
-    "main.js": "/color-scheme-explorer/static/js/main.bf5b6178.chunk.js",
-    "main.js.map": "/color-scheme-explorer/static/js/main.bf5b6178.chunk.js.map",
+    "main.css": "/color-scheme-explorer/static/css/main.2d94d777.chunk.css",
+    "main.js": "/color-scheme-explorer/static/js/main.6f748be7.chunk.js",
+    "main.js.map": "/color-scheme-explorer/static/js/main.6f748be7.chunk.js.map",
     "runtime-main.js": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js",
     "runtime-main.js.map": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js.map",
-    "static/js/2.e974b06b.chunk.js": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js",
-    "static/js/2.e974b06b.chunk.js.map": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js.map",
+    "static/js/2.f72683f0.chunk.js": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js",
+    "static/js/2.f72683f0.chunk.js.map": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js.map",
     "index.html": "/color-scheme-explorer/index.html",
-    "precache-manifest.fca9e99532cc5a7a143bfc8bc6432682.js": "/color-scheme-explorer/precache-manifest.fca9e99532cc5a7a143bfc8bc6432682.js",
+    "precache-manifest.b68316dd811f4e41fe3e8b2c5291a99b.js": "/color-scheme-explorer/precache-manifest.b68316dd811f4e41fe3e8b2c5291a99b.js",
     "service-worker.js": "/color-scheme-explorer/service-worker.js",
-    "static/css/main.c8465cce.chunk.css.map": "/color-scheme-explorer/static/css/main.c8465cce.chunk.css.map",
-    "static/js/2.e974b06b.chunk.js.LICENSE.txt": "/color-scheme-explorer/static/js/2.e974b06b.chunk.js.LICENSE.txt",
-    "static/media/App2.css": "/color-scheme-explorer/static/media/overpass-mono-regular-webfont.6e4d90e6.woff"
+    "static/css/main.2d94d777.chunk.css.map": "/color-scheme-explorer/static/css/main.2d94d777.chunk.css.map",
+    "static/js/2.f72683f0.chunk.js.LICENSE.txt": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js.LICENSE.txt",
+    "static/media/App2.css": "/color-scheme-explorer/static/media/overpass-mono-regular-webfont.6e4d90e6.woff",
+    "static/media/configure-colors-page.png": "/color-scheme-explorer/static/media/configure-colors-page.d3a41f29.png",
+    "static/media/layout-page.png": "/color-scheme-explorer/static/media/layout-page.1bca8cb2.png",
+    "static/media/random-palette-page-no-layout.png": "/color-scheme-explorer/static/media/random-palette-page-no-layout.298dd17b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a280aaf3.js",
-    "static/js/2.e974b06b.chunk.js",
-    "static/css/main.c8465cce.chunk.css",
-    "static/js/main.bf5b6178.chunk.js"
+    "static/js/2.f72683f0.chunk.js",
+    "static/css/main.2d94d777.chunk.css",
+    "static/js/main.6f748be7.chunk.js"
   ]
 }
