@@ -1,0 +1,5 @@
+code comments
+responsive design
+mobile-first piece of responsove
+
+responsive design for fuzzing?
