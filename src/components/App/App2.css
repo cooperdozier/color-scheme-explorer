@@ -54,13 +54,12 @@ body * {
 }
 
 
-/* initial TestingBlock styles on page load, before randomizing */
+/* initial TestingBlock.js styles on page load, before randomizing (all pages but / (HowToUSe.js, About link) */
 div.testBlock {
   padding: 15px;
   border: 7px solid black;
   margin:10px auto;
   border-radius: 5px;
-  /* max-width: 500px; */
   font-weight: 900;
 }
 .backgroundDiv {
@@ -68,6 +67,7 @@ div.testBlock {
   margin: 0.5rem;
   border: 4px solid #bbbbbb;
 }
+
 
 /* button elements without input fields in RandomizeColors.js and RandomizeLayout.js */
 button {
@@ -82,31 +82,32 @@ button {
 }
 
 
-/* Used on ColorManifest.js component colorlist (every page but /) */
+/* Used on ColorManifest.js component list of colors; every page but / (HowToUse.js) */
 /* Used on form elements in RandomizeColors.js and ConfigureColors.js components/pages */
 .colorManifest,form {
   padding: 3px;
   margin: 2px;
   background-color: #99bbdd;
-  /* font-weight: 900; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: 2px solid #829288;
   overflow: visible;
 }
 
-/* 2 input fields on ConfigureColors.js and 1 input field on RandomizeColors.js */
+
+/* Used on ConfigureColors.js and RandomizeColors.js only */
 input,label {
   padding: 2px;
   margin: 2px;
   background-color: #99bbdd;
-  /* font-weight: 900; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* 3 input fields and 2 submit buttons on ConfigureColors.js
-and 1 input and 1 submit button on RandomizeColors.js */
-input {
-  width: 100px;
+label {
+  font-size: 13px;
 }
+input {
+  width: 70px;
+}
+
 
 /* occurs only in TestingBlock.js; every page but / (HowToUSe.js) */
 h3 {
@@ -115,17 +116,17 @@ h3 {
 #group1,#group2,#group3 {
   overflow: hidden;
 }
-
-/* absent? */
-.group1Abs {
-  position:absolute;
+.capital {
+  text-transform: capitalize;
 }
+
 
 /* occurs only on base div element in ConfigureColors.js */
 #configWrapperDiv {
   position: relative,
 }
 /* occurs only on Removed Colors list in ConfigureColors.js */
+/* (bottom left corner) */
 #configHistoryDiv {
   position: fixed;
   bottom: 0.7em;
@@ -136,6 +137,11 @@ h3 {
   z-index: 5;
   left: 0.7em;
 }
+/* occurs only in form elements on ConfigureColors.js */
+.lineUp {
+  display: inline-block;
+}
+
 
 /* <a> elements appear only in / (HowToUse.js) */
 a {
@@ -180,7 +186,7 @@ h1 {
   text-align: left;
   font-size: 120%;
 }
-/* <a> elements only in <p> in / (HowToUse.js) */
+/* Applies to <a> elements only in <p> in / (HowToUse.js) */
 .basicText a {
   line-height: 75%;
 }
@@ -190,23 +196,10 @@ img {
   border-radius:17px;
 }
 
-/* occurs only in form elements on ConfigureColors.js */
-.lineUp {
-  display: inline-block;
-}
 
-/* occurs only in TestingBlock.js component */
-.capital {
-  text-transform: capitalize;
-}
+/* RandomizeColors.js only */
 .inline-form {
   display: inline-block;
   font-weight: normal;
   font-size: 14px;
-}
-label {
-  font-size: 13px;
-}
-input {
-  width: 70px;
 }
