@@ -36,8 +36,6 @@ class ConfigureColors extends Component {
 
     render() {
         let removedColorsList = this.props.removedColors.map((colors) => {
-            // let swatch = []
-            // let swatch = (`background-color: ${colors[1]}`)
             return <li>{colors[0]} <span style={{backgroundColor: colors[1]}}>___</span></li>
         })
 
@@ -47,11 +45,6 @@ class ConfigureColors extends Component {
                     <h4>Removed Colors:</h4>
                    {removedColorsList}
                 </ul>
-                
-                {/* <ul id="bgColorDiv">
-                    <h4>Background Color:</h4>
-                    {this.props.bgColorPrint}
-                </ul> */}
                 
                 <form className='lineUp' onSubmit={this.handleSubmit}>
                     <label>
@@ -74,7 +67,6 @@ class ConfigureColors extends Component {
                     </label>
                     <input type="submit" value="Submit" onSubmit={this.handleBgSubmit} />
                 </form>
-                {/* <button className='lineUp' onClick={() => this.props.saveScheme()}>saveScheme</button> */}
 
                 <ColorManifest colorTags={this.props.colorTags} positionings={this.props.positionings}
                 bgColorPrint={this.props.bgColorPrint} colrOrgId={this.props.colrOrgId} />
