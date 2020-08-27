@@ -136,6 +136,7 @@ class App2 extends Component {
         case 5:
           textSettingsArray[i] = "'liberation_serif','serif'";
           break;
+        case 7:
         case 2:
         case 6:
           textSettingsArray[i] = "'open_sans','sans-serif'";
@@ -143,9 +144,9 @@ class App2 extends Component {
         case 3:
           textSettingsArray[i] = "'sf_burlington_script','cursive'";
           break;
-        case 7:
-          textSettingsArray[i] = "'belligerent_madnessregular','sans-serif'";
-          break;
+        // case 7:
+        //   textSettingsArray[i] = "'belligerent_madnessregular','sans-serif'";
+        //   break;
         case 8:
           textSettingsArray[i] = "'inknut_antiqua','serif'"
           break;

@@ -3,3 +3,10 @@ responsive design
 mobile-first piece of responsove
 
 responsive design for fuzzing?
+
+move font size shuffle to text properties shuffle
+add z-index shuffle to layout shuffle
+
+responsive / absolute switch for layout shuffle
+
+let random text determine height of divs instead of shuffle?

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/color-scheme-explorer/static/css/main.3fbe5f9e.chunk.css",
-    "main.js": "/color-scheme-explorer/static/js/main.c65867ea.chunk.js",
-    "main.js.map": "/color-scheme-explorer/static/js/main.c65867ea.chunk.js.map",
+    "main.css": "/color-scheme-explorer/static/css/main.1123f0fb.chunk.css",
+    "main.js": "/color-scheme-explorer/static/js/main.994b3933.chunk.js",
+    "main.js.map": "/color-scheme-explorer/static/js/main.994b3933.chunk.js.map",
     "runtime-main.js": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js",
     "runtime-main.js.map": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js.map",
-    "static/js/2.f72683f0.chunk.js": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js",
-    "static/js/2.f72683f0.chunk.js.map": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js.map",
+    "static/js/2.ed95bea0.chunk.js": "/color-scheme-explorer/static/js/2.ed95bea0.chunk.js",
+    "static/js/2.ed95bea0.chunk.js.map": "/color-scheme-explorer/static/js/2.ed95bea0.chunk.js.map",
     "index.html": "/color-scheme-explorer/index.html",
-    "precache-manifest.d4c4d1c5855e58a899f784ea012a4b3f.js": "/color-scheme-explorer/precache-manifest.d4c4d1c5855e58a899f784ea012a4b3f.js",
+    "precache-manifest.e0d03e0f2727db24fc6ce51206f25966.js": "/color-scheme-explorer/precache-manifest.e0d03e0f2727db24fc6ce51206f25966.js",
     "service-worker.js": "/color-scheme-explorer/service-worker.js",
-    "static/css/main.3fbe5f9e.chunk.css.map": "/color-scheme-explorer/static/css/main.3fbe5f9e.chunk.css.map",
-    "static/js/2.f72683f0.chunk.js.LICENSE.txt": "/color-scheme-explorer/static/js/2.f72683f0.chunk.js.LICENSE.txt",
-    "static/media/App2.css": "/color-scheme-explorer/static/media/overpass-mono-regular-webfont.6e4d90e6.woff",
+    "static/css/main.1123f0fb.chunk.css.map": "/color-scheme-explorer/static/css/main.1123f0fb.chunk.css.map",
+    "static/js/2.ed95bea0.chunk.js.LICENSE.txt": "/color-scheme-explorer/static/js/2.ed95bea0.chunk.js.LICENSE.txt",
+    "static/media/font-1.css": "/color-scheme-explorer/static/media/sf_burlington_script_italic-webfont.d4df4370.woff2",
     "static/media/configure-colors-page.png": "/color-scheme-explorer/static/media/configure-colors-page.d3a41f29.png",
     "static/media/layout-page.png": "/color-scheme-explorer/static/media/layout-page.1bca8cb2.png",
     "static/media/random-palette-page-no-layout.png": "/color-scheme-explorer/static/media/random-palette-page-no-layout.298dd17b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a280aaf3.js",
-    "static/js/2.f72683f0.chunk.js",
-    "static/css/main.3fbe5f9e.chunk.css",
-    "static/js/main.c65867ea.chunk.js"
+    "static/js/2.ed95bea0.chunk.js",
+    "static/css/main.1123f0fb.chunk.css",
+    "static/js/main.994b3933.chunk.js"
   ]
 }
