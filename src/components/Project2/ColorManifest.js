@@ -6,7 +6,8 @@ class ColorManifest extends Component {
     }
 
     render() {
-
+        // Set background colors to sample swatches in color list
+        // used in style={ } statements below
         let color0a = {backgroundColor: this.props.colorTags[0]}
         let color1a = {backgroundColor: this.props.colorTags[1]}
         let color2a = {backgroundColor: this.props.colorTags[2]}
@@ -21,6 +22,7 @@ class ColorManifest extends Component {
         let colorBG = {backgroundColor: this.props.bgColorPrint}
         return (
             <p className='colorManifest'>
+            {/* Display each color's hex value from colorTags next to a swatch of the color */}
             0:&nbsp;{this.props.colorTags[0]}&nbsp;<span style={color0a}>_____</span> -
             1:&nbsp;{this.props.colorTags[1]}&nbsp;<span style={color1a}>_____</span> -
             2:&nbsp;{this.props.colorTags[2]}&nbsp;<span style={color2a}>_____</span> -
@@ -32,8 +34,11 @@ class ColorManifest extends Component {
             8:&nbsp;{this.props.colorTags[8]}&nbsp;<span style={color8a}>_____</span> -
             9:&nbsp;{this.props.colorTags[9]}&nbsp;<span style={color9a}>_____</span> -
             10:&nbsp;{this.props.colorTags[10]}&nbsp;<span style={color10a}>_____</span> -
-            BG:&nbsp;{this.props.bgColorPrint}&nbsp;<span style={colorBG}>_____</span> -
-            Colr.Org ID: {this.props.colrOrgId}
+            {/* Display page background color hex value and swatch from bgColorPrint and colrBG, respectively 
+            - page background is not affected by color schemes loaded */}
+            &nbsp;BG:&nbsp;{this.props.bgColorPrint}&nbsp;<span style={colorBG}>_____</span> -
+            {/* Dispaly current color.org color scheme ID number - does not clear when colors are manually set */}
+            &nbsp;Colr.Org ID:&nbsp;{this.props.colrOrgId}
             </p>
         )
     }

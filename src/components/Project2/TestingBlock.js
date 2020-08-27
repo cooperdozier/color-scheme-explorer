@@ -13,7 +13,7 @@ class TestingBlock extends Component {
             height: '600px',
             width: '750px',
         }
-        // colors set via fetchScheme() or randomizeColors(), then setAColor(),
+        // colors set via fetchScheme(), randomizeColors(), and/or setAColor(),
         // and then the map function with colorTags in App2.js
         // called by RandomizeColors.js
         // or by user action ConfigureColors.js via setAColor() and colorTags
@@ -21,6 +21,7 @@ class TestingBlock extends Component {
         // left, top, width, height, borderWidth, borderRadius, and fontSize
         // are all set by shuffleLayout() in App2.js
         // called by RandomizeLayout.js
+        // positionClass also set by shuffleLayout() - changes from static to absolute
 
         // fontFamily, textAlign, fontWeight, and fontStyle are all set by
         // shuffleText in App2.js
@@ -108,6 +109,7 @@ class TestingBlock extends Component {
         }
 
         return (
+            // inner background div, plus 3 <h3>s and 3 <p>s of gibberish
             <div style={backgroundDiv} className='backgroundDiv'>
                 <div style={groupOneDiv} className='testBlock' id="group1">
                     <h3 style={groupOneH3} className='testBlock capital'>{this.props.headingText[0]}</h3>
@@ -125,6 +127,8 @@ class TestingBlock extends Component {
                         {this.props.paragraphText[2]}</p>
                 </div>
             </div>
+            // To try: Have background div resize at random in a narrow range too?
+            // To try: Stop resizing height of <div>s and instea dlet it be determined by text content?
         )
     }
 }

@@ -1,5 +1,6 @@
-import '../../Reset.css'
+import '../../Reset.css';
 import React, { Component } from 'react';
+import '../../fonts/font-1.css';
 import './App2.css';
 import axios from 'axios';
 import RandomizeColors from '../Project2/RandomizeColors';
@@ -114,7 +115,7 @@ class App2 extends Component {
     function shuffle(min, maxPlus1) { return Math.floor(Math.random() * (maxPlus1 - min)) + min }
     // get 6 random numbers from 0-7
     for (let i = 0; i < 6; i++) {
-      tempVars[i] = shuffle(0, 8)
+      tempVars[i] = shuffle(0, 9)
     }
     // get 6 random numbers from 0-3
     for (let i = 6; i < 12; i++) {
@@ -129,21 +130,24 @@ class App2 extends Component {
       switch (tempVars[i]) {
         case 0:
         case 4:
-          textSettingsArray[i] = "'overpass_monoregular','monospace'";
+          textSettingsArray[i] = "'office_code_pro','monospace'";
           break;
         case 1:
         case 5:
-          textSettingsArray[i] = "'comprehensionsemibold','serif'";
+          textSettingsArray[i] = "'liberation_serif','serif'";
           break;
         case 2:
         case 6:
-          textSettingsArray[i] = "'encode_sansregular','sans-serif'";
+          textSettingsArray[i] = "'open_sans','sans-serif'";
           break;
         case 3:
-          textSettingsArray[i] = "'amitaregular','cursive'";
+          textSettingsArray[i] = "'sf_burlington_script','cursive'";
           break;
         case 7:
           textSettingsArray[i] = "'belligerent_madnessregular','sans-serif'";
+          break;
+        case 8:
+          textSettingsArray[i] = "'inknut_antiqua','serif'"
           break;
         default:
           textSettingsArray[i] = 'monospace';
@@ -220,10 +224,10 @@ class App2 extends Component {
     for (let i = 21; i < 30; i++) {
       positionsArray[i] = shuffle(2, 17) + 'px'
     }
-    for (let i = 31; i < 33; i++) {
+    for (let i = 31; i < 34; i++) {
       positionsArray[i] = shuffle(17, 30) + 'px'
     }
-    for (let i = 34; i < 36; i++) {
+    for (let i = 34; i < 37; i++) {
       positionsArray[i] = shuffle(10, 22) + 'px'
     }
     this.setState({
