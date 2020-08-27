@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56b5d4d1f3b25230667744eddeb8b0d9",
+    "revision": "99a48d1ec139893d78c3ad64984d9ab8",
     "url": "/color-scheme-explorer/index.html"
   },
   {
-    "revision": "3ea972d4e37a7edbc41a",
-    "url": "/color-scheme-explorer/static/css/main.1123f0fb.chunk.css"
+    "revision": "4be3ac46126532ab98a5",
+    "url": "/color-scheme-explorer/static/css/main.7b173931.chunk.css"
   },
   {
     "revision": "9aea54e472126a2bc4ef",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-scheme-explorer/static/js/2.ed95bea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ea972d4e37a7edbc41a",
-    "url": "/color-scheme-explorer/static/js/main.994b3933.chunk.js"
+    "revision": "4be3ac46126532ab98a5",
+    "url": "/color-scheme-explorer/static/js/main.d84beb9a.chunk.js"
   },
   {
     "revision": "2a8f93a99fe25e31ac30",
@@ -104,19 +104,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-scheme-explorer/static/media/random-palette-page-no-layout.298dd17b.png"
   },
   {
-    "revision": "527b0cc2d7e7aac9b555ea086518662a",
-    "url": "/color-scheme-explorer/static/media/sf_burlington_script-webfont.527b0cc2.woff2"
+    "revision": "2da765f261c651546ece1eabef2a02a5",
+    "url": "/color-scheme-explorer/static/media/sf_burlington_script-webfont.2da765f2.woff2"
   },
   {
-    "revision": "c7e42985ec30746d37b44447e8bd8791",
-    "url": "/color-scheme-explorer/static/media/sf_burlington_script_bold-webfont.c7e42985.woff2"
+    "revision": "1ded3726b56a54692faee89481db9511",
+    "url": "/color-scheme-explorer/static/media/sf_burlington_script_bold-webfont.1ded3726.woff2"
   },
   {
-    "revision": "9c6333f1cc091935085ab437eebf5e6a",
-    "url": "/color-scheme-explorer/static/media/sf_burlington_script_bold_italic-webfont.9c6333f1.woff2"
+    "revision": "3b9a256832e6531dc73fa499ec79fced",
+    "url": "/color-scheme-explorer/static/media/sf_burlington_script_bold_italic-webfont.3b9a2568.woff2"
   },
   {
-    "revision": "d4df43701e72436b22899f72e2ee7bf8",
-    "url": "/color-scheme-explorer/static/media/sf_burlington_script_italic-webfont.d4df4370.woff2"
+    "revision": "fb9d7e6205fba03ad8d951bfca8d67a5",
+    "url": "/color-scheme-explorer/static/media/sf_burlington_script_italic-webfont.fb9d7e62.woff2"
   }
 ]);
