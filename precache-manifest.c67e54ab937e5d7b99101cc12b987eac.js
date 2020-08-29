@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99a48d1ec139893d78c3ad64984d9ab8",
+    "revision": "0514a13fffa52b297a885e54cc54cf10",
     "url": "/color-scheme-explorer/index.html"
   },
   {
-    "revision": "4be3ac46126532ab98a5",
-    "url": "/color-scheme-explorer/static/css/main.7b173931.chunk.css"
+    "revision": "1f6ecb32686ef27640d0",
+    "url": "/color-scheme-explorer/static/css/main.7309e8cd.chunk.css"
   },
   {
     "revision": "9aea54e472126a2bc4ef",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-scheme-explorer/static/js/2.ed95bea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4be3ac46126532ab98a5",
-    "url": "/color-scheme-explorer/static/js/main.d84beb9a.chunk.js"
+    "revision": "1f6ecb32686ef27640d0",
+    "url": "/color-scheme-explorer/static/js/main.58f3ff53.chunk.js"
   },
   {
     "revision": "2a8f93a99fe25e31ac30",
     "url": "/color-scheme-explorer/static/js/runtime-main.a280aaf3.js"
+  },
+  {
+    "revision": "ced6eadfe65b21bc5279be5a081af19d",
+    "url": "/color-scheme-explorer/static/media/amerika-webfont.ced6eadf.woff2"
   },
   {
     "revision": "e41815426a1b883a27ff480889b0e989",
@@ -32,20 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/color-scheme-explorer/static/media/configure-colors-page.d3a41f29.png"
   },
   {
-    "revision": "24a1be312a5fb1dcd7ef4fba387bf62d",
-    "url": "/color-scheme-explorer/static/media/inknutantiqua-black-webfont.24a1be31.woff2"
+    "revision": "b5c3e903c66e9ca585d9f33ef3db16a6",
+    "url": "/color-scheme-explorer/static/media/immortal-webfont.b5c3e903.woff2"
   },
   {
     "revision": "3133e40401cb0d77d433a1641a7ebf58",
     "url": "/color-scheme-explorer/static/media/inknutantiqua-bold-webfont.3133e404.woff2"
-  },
-  {
-    "revision": "0ee261a23f183e548cb69a0d98b16244",
-    "url": "/color-scheme-explorer/static/media/inknutantiqua-light-webfont.0ee261a2.woff2"
-  },
-  {
-    "revision": "c5b325471dfe830f0f4221a593ea7011",
-    "url": "/color-scheme-explorer/static/media/inknutantiqua-regular-webfont.c5b32547.woff2"
   },
   {
     "revision": "1bca8cb2153a3c87b2a1f99c2ec474e0",
