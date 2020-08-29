@@ -115,7 +115,7 @@ class App2 extends Component {
     function shuffle(min, maxPlus1) { return Math.floor(Math.random() * (maxPlus1 - min)) + min }
     // get 6 random numbers from 0-7
     for (let i = 0; i < 6; i++) {
-      tempVars[i] = shuffle(0, 9)
+      tempVars[i] = shuffle(0, 8)
     }
     // get 6 random numbers from 0-3
     for (let i = 6; i < 12; i++) {
@@ -136,7 +136,6 @@ class App2 extends Component {
         case 5:
           textSettingsArray[i] = "'liberation_serif','serif'";
           break;
-        case 7:
         case 2:
         case 6:
           textSettingsArray[i] = "'open_sans','sans-serif'";
@@ -144,11 +143,8 @@ class App2 extends Component {
         case 3:
           textSettingsArray[i] = "'sf_burlington_script','cursive'";
           break;
-        // case 7:
-        //   textSettingsArray[i] = "'belligerent_madnessregular','sans-serif'";
-        //   break;
-        case 8:
-          textSettingsArray[i] = "'inknut_antiqua','serif'"
+        case 7:
+          textSettingsArray[i] = "'display-type','serif'"
           break;
         default:
           textSettingsArray[i] = 'monospace';

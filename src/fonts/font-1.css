@@ -2,35 +2,35 @@
 
 /* fonts that get applied by 'Click for new text properties' button in RandomizeLayout.js */
 @font-face {
-    font-family: 'belligerent_madnessregular';
+    font-family: 'display-type';
     src: url('belligerent-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'inknut_antiqua';
-    src: url('inknutantiqua-black-webfont.woff2') format('woff2');
+    font-family: 'display-type';
+    src: url('immortal-webfont.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
-    font-family: 'inknut_antiqua';
+    font-family: 'display-type';
     src: url('inknutantiqua-bold-webfont.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'inknut_antiqua';
-    src: url('inknutantiqua-light-webfont.woff2') format('woff2');
+    font-family: 'display-type';
+    src: url('amerika-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
 }
-@font-face {
+/* @font-face {
     font-family: 'inknut_antiqua';
     src: url('inknutantiqua-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
+} */
 @font-face {
     font-family: 'liberation_serif';
     src: url('liberationserif-bold-webfont.woff2') format('woff2');
